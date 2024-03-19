@@ -1,0 +1,69 @@
+.nav-link i.fa {
+    font-size: 24px;
+    text-align: center;
+    color: black;
+}
+.nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* canh giữa theo chiều dọc */
+    text-decoration: none; /* để loại bỏ gạch chân mặc định trên liên kết */
+}
+.col-11 {
+    background-color: #f9fafa;
+}
+form {
+    text-align: center;
+}
+
+button {
+    text-align: center;
+    border: none;
+    height: 50px;
+    width: 70px;
+    background: white;
+    border-radius: 0 35px 35px 0;
+    color: rgb(170, 170, 170);
+    font-size: 1.4rem;
+}
+
+input[type="text"] {
+    border: none;
+    height: 50px;
+    width: 300px;
+    outline: none;
+    margin-bottom: 20%;
+    padding-left: 40px;
+    border-radius: 35px 0 0 35px;
+    color: rgb(110, 110, 110);
+    font-size: 1.6rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 200;
+    text-align: center;
+    margin-left: 2em;
+}
+.ul li a {
+    margin-right: auto;
+    margin-left: 3em;
+}
+.ul li img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; /* canh giữa theo chiều dọc */
+    text-decoration: none;
+    margin-left: 3em;
+}
+.nav-left {
+    background-color: #fff;
+    padding: 2em;
+}
+h5 {
+    font-weight: bold;
+}
+.pp {
+    margin-left: auto !important;
+    font-weight: 500;
+}
+.sidebar {
+    margin-right: auto !important;
+}
