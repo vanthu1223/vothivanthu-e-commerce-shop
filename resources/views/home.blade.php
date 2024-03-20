@@ -18,23 +18,19 @@
     <div class="row">
         <div class="col-1">
             @section('navbar')
-                @include('navbar')
+                @include('components.navbar')
             @show
         </div>
         <div class="col-11" style="overflow: hidden;">
             <div class="container">
-               @include('sidebar')
-               @include('main')
+               @include('components.sidebar')
+                <div class="row">
+                    @yield('main-left')
+                    @yield('main')
+                    @yield('main-right')
+                </div> 
             </div>
-            <div class="pt-5"></div>
-            <hr>
-            <div class="d-flex">
-                <h5>Deals of the Day | </h5>
-                <h5 style="padding-left: 20px;color:crimson">20:45:12 Left</h5>
-                <p class="pp">Views all deal</p>
-            </div> 
-            <div class="pt-3"></div>
-           @include('card')
+            @yield('card')
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

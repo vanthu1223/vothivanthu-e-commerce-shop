@@ -52,6 +52,6 @@ class HomeController extends Controller
                 'image' => 'https://m.media-amazon.com/images/I/51G5ioU8U8L._AC_UY1100_.jpg'
             ]
             ];
-        return view('home',['items' => $items],['images'=> $images]);
+        return view('client',['items' => $items],['images'=> $images]);
     }
 }
